@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    
+}
+
+.nav-2{
+    background-color: #003049;
+  
+}
+.nav-2 ul {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+.nav-2 ul  li{
+    padding: 15px;
+  
+}
+.nav-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    background-color:#003049 ;
+    padding: 10px;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+.footer .copyrights{
+    text-align: center;
+    color: black;
+background-color: #003049;
+}
+.body-part {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin-top: 0; 
+  }
+  
+  h6 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #666; 
+    margin-bottom: 10px; 
+  }
+  
+  label {
+    display: block;
+
+   margin-top: 20px;
+  }
+  
+  select, input[type="number"] {
+    width: 97%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  @media (max-width:897px){
+    select, input[type="number"] {
+        width: 97%; 
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+      }
+
+  }
+  @media (max-width:567px){
+    select, input[type="number"] {
+        width: 97%; 
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+      }
+
+  }
+  select {
+    height: 35px; 
+  }
+  
+  button[type="submit"] {
+    background-color: #003049;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #165171; 
+  }
